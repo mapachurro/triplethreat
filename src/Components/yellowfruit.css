@@ -1,0 +1,17 @@
+.Alignbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Alignbox-item {
+    max-width: 50%;
+  }
+  
+  .Alignbox-item--top {
+    align-self: flex-start;
+  }
+  
+  .Alignbox-item--bottom {
+    align-self: flex-end;
+  }
