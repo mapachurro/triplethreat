@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import './App.css';
 
 import Yellowfruit from './Components/yellowfruit'
 
 function App() {
-  return (
-    <Yellowfruit />
+  return (    
+  <Suspense fallback="loading">
+      <Yellowfruit />
+</Suspense>
+
   );  
 }
 

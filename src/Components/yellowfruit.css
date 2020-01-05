@@ -17,7 +17,7 @@
   }
   
   .Alignbox-item--bottom {
-    min-height: 12em;
+    min-height: 8em;
     align-self: flex-end;
     background-color:saddlebrown;
   }
