@@ -1,7 +1,9 @@
 .Alignbox {
     display: flex;
     align-items: center;
+    min-height: 24em;
     justify-content: center;
+    background-color: yellow;
   }
   
   .Alignbox-item {
@@ -9,9 +11,13 @@
   }
   
   .Alignbox-item--top {
+    min-height: 12em;
     align-self: flex-start;
+    background-color: green;
   }
   
   .Alignbox-item--bottom {
+    min-height: 12em;
     align-self: flex-end;
+    background-color:saddlebrown;
   }
